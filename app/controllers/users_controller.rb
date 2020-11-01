@@ -16,7 +16,10 @@ class UsersController < ApplicationController
         @newUser = User.create(
             name: params[:name],
             age: params[:age],
-            bio: params[:bio]
+            bio: params[:bio],
+            rating: params[:rating],
+            email: params[:email],
+            password: params[:password],
         )
 
         render json: @newUser
