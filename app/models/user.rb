@@ -1,4 +1,4 @@
 class User < ApplicationRecord
     has_many :activity
-    has_secured_password
+    has_secure_password
 end

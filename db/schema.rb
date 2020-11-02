@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 2020_10_30_023446) do
     t.string "name"
     t.integer "age"
     t.string "bio"
-    t.string "rating"
+    t.integer "rating"
     t.string "email"
     t.string "password_digest"
     t.datetime "created_at", precision: 6, null: false
